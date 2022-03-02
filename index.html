@@ -61,6 +61,8 @@ header > a {
 a > img {
   border-radius: 50%;
   margin-right: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 a span {
@@ -134,6 +136,16 @@ footer a {
   font-family: "Staatliches", cursive;
   font-size: 25px;
 }
+
+@media (max-width: 700px) {
+  header {
+    font-size: 30px;
+  }
+
+  header > a {
+    font-size: 30px;
+  }
+}
   </style>
 
   
@@ -158,8 +170,8 @@ footer a {
 <body>
   <main>
     <header>
-          <a class="navbar-brand" href="#"> 
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG68j60c8An3A/profile-displayphoto-shrink_200_200/0/1592917668861?e=1651104000&v=beta&t=PFKAAWhUI3x9L0qF54_WgaPqDE8qA37kJSs2J7VLZjQ" alt="" width="50" height="50" class="d-inline-block align-text-top">
+          <a class="" href="#">
+            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG68j60c8An3A/profile-displayphoto-shrink_200_200/0/1592917668861?e=1651104000&v=beta&t=PFKAAWhUI3x9L0qF54_WgaPqDE8qA37kJSs2J7VLZjQ" alt="" class="d-inline-block align-text-top">
             <span>WELCOME</span>
           </a>
             <ul class="navbar-nav-list">
