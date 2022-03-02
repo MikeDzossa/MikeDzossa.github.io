@@ -27,10 +27,6 @@
   --main-green: #68997E;
 }
 
-* {
-  border: solid;
-}
-
 main {
   font-family: "Poppins", Algerian;
   font-size: 25px;
@@ -41,6 +37,8 @@ header {
   background-color: var(--main-green);
   width: 100%;
   height: 10vh;
+  display: flex;
+  justify-content: start;
 }
 
 header a {
@@ -56,25 +54,34 @@ header a:hover {
   text-decoration: underline;
 }
 
+header > a {
+  width: 30%;
+}
+
 a > img {
   border-radius: 50%;
   margin-right: 10px;
 }
 
 a span {
-  font-family: "Arial";
+  font-family: "Raleway";
+  font-weight: 500;
 }
 
 .navbar-nav-list {
-  margin-top: 15px;
+  margin: 0;
   display: flex;
   flex-direction: row;
   list-style-type: none;
   height: 100%;
+  width: 70%;
+  justify-content: end;
 }
 
 li {
-  margin: 10px;
+  margin: auto 0;
+  font-family: "Raleway";
+  padding: 10px;
 }
 
 #cover {
@@ -151,7 +158,7 @@ footer a {
 <body>
   <main>
     <header>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#"> 
             <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG68j60c8An3A/profile-displayphoto-shrink_200_200/0/1592917668861?e=1651104000&v=beta&t=PFKAAWhUI3x9L0qF54_WgaPqDE8qA37kJSs2J7VLZjQ" alt="" width="50" height="50" class="d-inline-block align-text-top">
             <span>WELCOME</span>
           </a>
